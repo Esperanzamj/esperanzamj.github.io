@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, DejaVu Sans, Helvetica, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    font-size: 20px;
+}
+
+header {
+    background: #8FBBDA;
+    text-align: center; 
+     
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1.5rem; 
+}
+
+.cajita {
+    display: inline-block;
+    padding: .2rem .4rem;
+    font-size: 0.8em;
+    font-weight: bold;
+    background: white;
+    color: #246797;
+    vertical-align: bottom;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background: hsl(0, 0%, 90%); color: hsl(0, 0%, 27%);
+
+    font-size: 0.92rem;
+    padding: 2rem 0; 
+}
+.container {
+    max-width: 1000px; margin: 0 auto; padding: 1.2rem;
+
+}
