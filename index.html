@@ -1,5 +1,6 @@
 ---
 layout: main
+lang: es
 ---
 
 <div class="hero">
@@ -7,7 +8,7 @@ layout: main
     <h2>Traducción y localización EN⇄ES</h2>
     <p> Traductora especializada en traducción audiovisual establecida en Granada.</p>
     {% include socials.html %}
-    </div>
+  </div>
   <!--
   <span class="cajita">EN&rarr;ES</span>
   <span class="cajita">ES&rarr;EN</span>
@@ -15,78 +16,145 @@ layout: main
 -->
 </div>
 
-<main id="servicios">
-  <div class="width cards">
-  <div class="dual">
-    <div class="image game">
-    </div>
-    <div class="description">
-      <h3>Localización de videojuegos</h3>
-    </div>
-  </div>
+<main>
+  <section id="servicios" class="width">
+    <h2>Servicios</h2>
 
-  <div class="dual">
-    <div class="image soft">
-    </div>
-    <div class="description">
-      <h3>Localización de software</h3>
-    </div>
-  </div>
-
-
-  <div class="dual">
-    <div class="image web">
-    </div>
-    <div class="description">
-      <h3>Localización de sitios web</h3>
-    </div>
-  </div>
-
-
-  <div class="dual">
-    <div class="image sub">
-    </div>
-    <div class="description">
-      <h3>Subtitulado EN-ES</h3>
-    </div>
-  </div>
-
-
-  <div class="dual">
-    <div class="image acc">
-
-    </div>
-    <div class="description">
-      <h3>Subtitulado accesible</h3>
-    </div>
-  </div>
-
-
-  <div class="dual">
-    <div class="image audio">
-    </div>
-    <div class="description">
-      <h3>Audiodescripción fílmica</h3>
-    </div>
-  </div>
-
-
-    <div class="dual">
-      <div class="image doblaje">
+    <div class="cards">
+      <div class="dual">
+        <div class="image game"></div>
+        <div class="description">
+          <h3>Localización de videojuegos</h3>
+        </div>
       </div>
-      <div class="description">
-        <h3>Traducción para doblaje</h3>
-      </div>
-    </div>
 
-    <div class="dual">
-      <div class="image science">
+      <div class="dual">
+        <div class="image soft"></div>
+        <div class="description">
+          <h3>Localización de software</h3>
+        </div>
       </div>
-      <div class="description">
-        <h3>Traducción científico-técnica</h3>
+
+
+      <div class="dual">
+        <div class="image web"></div>
+        <div class="description">
+          <h3>Localización de sitios web</h3>
+        </div>
+      </div>
+
+
+      <div class="dual">
+        <div class="image sub"></div>
+        <div class="description">
+          <h3>Subtitulado EN-ES</h3>
+        </div>
+      </div>
+
+
+      <div class="dual">
+        <div class="image acc"></div>
+        <div class="description">
+          <h3>Subtitulado accesible</h3>
+        </div>
+      </div>
+
+
+      <div class="dual">
+        <div class="image audio"></div>
+        <div class="description">
+          <h3>Audiodescripción</h3>
+        </div>
+      </div>
+
+
+      <div class="dual">
+        <div class="image doblaje"></div>
+        <div class="description">
+          <h3>Traducción para doblaje</h3>
+        </div>
+      </div>
+
+      <div class="dual">
+        <div class="image science"></div>
+        <div class="description">
+          <h3>Traducción científico-técnica</h3>
+        </div>
       </div>
     </div>
-</div>
+  </section>
+  <section id="porfolio" class="width">
+    <h2>Porfolio</h2>
+    <div class="big-cards">
+      <div class="work">
+        <div class="description">
+          <h3>Me and My Shadow</h3>
+          <p class="content">
+            Localización del videojuego multiplataforma <em>Me and My Shadow</em>.
+          </p>
+          <ul class="tags">
+            <li class="tag partial">Parcial</li>
+            <li class="tag lang"><span>EN</span>&rarr;<span>ES</span></li>
+          </ul>
+        </div>
+        <img alt="Personaje principal de Me and My Shadow y su sombra" src="/assets/images/meandmy.jpeg">
 
+      </div>
+      <div class="work">
+        <div class="description">
+          <h3>Crápula</h3>
+          <p class="content">
+            Audiodescripción y subtitulado del corto <em>Crápula</em>, ganador del segundo premio de la segunda edición del festival DH Rueda.
+          </p>
+          <ul class="tags">
+            <li class="tag partial">Parcial</li>
+            <li class="tag lang"><span>ES</span>&rarr;<span>EN</span></li>
+          </ul>
+        </div>
+        <img alt="Personaje principal de Crápula" src="/assets/images/Crapula.png">
+      </div>
+      <div class="work">
+        <div class="description">
+          <h3>Visualizar cambios en Git y GitHub</h3>
+          <p class="content">
+            Subtitulación del vídeo <em>Visualizar cambios con Git y GitHub</em> en la plataforma colaborativa Amara.
+          </p>
+          <ul class="tags">
+            <li class="tag partial">Parcial</li>
+            <li class="tag lang"><span>EN</span>&rarr;<span>ES</span></li>
+          </ul>
+        </div>
+        <img alt="Control de cambios de Git y GitHub en la terminal" src="/assets/images/Diff.png">
 
+      </div>
+    </div>
+  </section>
+  <section id="contacto" class="width">
+    <h2>Contacto</h2>
+    <div class="columns">
+      <div class="info">
+        El precio de cada encargo variará en función de su complejidad y longitud. Pide presupuesto <strong>sin compromiso</strong> mediante este formulario y te responderé lo antes posible.
+      </div>
+      <form action="https://formspree.io/esperanzamj96@gmail.com" method="POST"><!-- cambiar por formspree libre próximamente -->
+        <input class="field" type="text" name="name" placeholder="Nombre">
+        <input class="field" type="email" name="_replyto" placeholder="Correo">
+        <select class="field" type="text" neme="Translation" placeholder="Tipo de servicio">
+          <option value="empty" disabled selected>Tipo de servicio</option>
+          <option value="juego">Localización de videojuegos</option>
+          <option value="software">Localización de software</option>
+          <option value="web">Localización de sitios web</option>
+          <option value="sub">Subtitulado EN-ES</option>
+          <option value="accesible">Subtitulado accesible</option>
+          <option value="audiodesc">Audiodescripción</option>
+          <option value="doblaje">Traducción para doblaje</option>
+          <option value="cientifica">Traducción científico-técnica</option>
+          <option value="general">Traducción general</option>
+          <option value="revision">Revisión</option>
+          <option value="indeciso">No lo tengo claro</option>
+        </select>
+        <textarea class="large field" name="message" placeholder="Inserte aquí una descripción del encargo (tema, número de palabras, plazo)"></textarea>
+        <input class="field" type="submit" value="Enviar solicitud">
+      </form>
+    </div>
+  </section>
 </main>
