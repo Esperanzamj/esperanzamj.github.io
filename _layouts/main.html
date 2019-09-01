@@ -17,8 +17,9 @@
 
       <nav class="header-item menu">
         <a href="/#servicios">{{ site.t[page.lang].servicios }}</a>
-        <a href="/#porfolio">Porfolio</a>
-        <a href="/#contacto" class="highlight">Contacto</a>
+        <a href="/#porfolio">{{ site.t[page.lang].porfolio }}</a>
+        <a href="/#contacto" class="highlight">{{ site.t[page.lang].contacto }}</a>
+        <a href="/" class="change-lang lang-es" title="{{ site.t[page.lang].change_es }}">ES</a><a href="/en/" class="change-lang lang-en"  title="{{ site.t[page.lang].change_en }}">EN</a>
       </nav>
     </div>
   </header>
@@ -27,7 +28,7 @@
   <footer>
     <div class="width footer-items">
 
-      <div class="copyright">&copy; 2019 Esperanza Montero Jaén</div>
+      <div class="copyright"><p>&copy; 2019 Esperanza Montero Jaén</p> <p>{{ site.t[page.lang].design }}: Esperanza Montero {{ site.t[page.lang].y }} <a href="https://david.quotient.space">David Charte</a></p></div>
       {% include socials.html %}
     </div></footer>
   </body>

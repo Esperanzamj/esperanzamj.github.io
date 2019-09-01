@@ -1,6 +1,18 @@
 t:
   es:
     servicios: Servicios
+    porfolio: Porfolio
+    contacto: Contacto
+    design: Diseño web
+    y: y
+    change_es: ""
+    change_en: Change to English
 
   en:
     servicios: Services
+    porfolio: Portfolio
+    contacto: Contact
+    design: Web design
+    y: and
+    change_es: Cambiar a español
+    change_en: ""
